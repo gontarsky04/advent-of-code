@@ -1,0 +1,43 @@
+# Pliki obiektowe (.o)
+*.o
+*.obj
+
+# Pliki bibliotek statycznych i dynamicznych
+*.lib
+*.a
+*.so
+*.dylib
+
+# Pliki wykonywalne (Executable files)
+# Dla systemów Unix/Linux/macOS
+*.out
+*.exe 
+
+# Pliki generowane przez kompilatory Visual Studio (Windows)
+*.ilk
+*.pdb
+
+# Pliki projektu CMake
+CMakeLists.txt.user
+CMakeCache.txt
+/CMakeFiles
+/build
+/Build
+
+# Pliki generowane przez Make
+Makefile.local
+
+# Pliki generowane przez Visual Studio Code
+.vscode/*
+
+# Pliki generowane przez inne popularne IDE
+*.xcodeproj
+*.xcworkspace
+*.pc
+/DerivedData
+.idea/
+
+.DS_Store # macOS
+*~ # Pliki backupowe edytorów
+
+\#*
